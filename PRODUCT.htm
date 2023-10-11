@@ -1,0 +1,483 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>PERWIRA203</title>
+</head>
+<style type="text/css">
+    body {
+                background-image: url('itadori,jpg');
+                background-size: 900px 1500px;
+            }
+    .button-71 {
+    background-color: #0078d0;
+    border: 0;
+    border-radius: 56px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    outline: 0;
+    padding: 12px 56px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-71:before {
+    background-color: initial;
+    background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+    border-radius: 125px;
+    content: "";
+    height: 50%;
+    left: 4%;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    transition: all .3s;
+    width: 92%;
+}
+
+.button-71:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+}
+
+@media (min-width: 100px) {
+    .button-71 {
+        padding: 10px 60px;
+    }
+}
+#borderimg1 {
+            border: 10px solid transparent;
+            padding: 1px;
+            border: url("border1.png");
+            border: round;
+            border-image-slice: 70;
+            border-image-width: 10px;
+            *{padding: 0; margin: 0}
+        }
+
+</style>
+    <script>
+    function hitungluaslingkaran(){
+        var data1=document.getElementById("jari").value
+        var hasil1=22/7*data1*data1
+        var sat2=document.getElementById("satuanlebar2").value
+
+
+        document.getElementById("hasil1").innerHTML="Hasil perhitungan luas= " + hasil1+"  "+sat2+"^2"
+
+                }
+
+    function luaspersegi(){
+        var data6=document.getElementById("sisi").value
+        var hasil4=data6*data6
+        var sat4=document.getElementById("satuanlebar4").value
+
+        document.getElementById("hasil4").innerHTML="Hasil perhitungan luas= " + hasil4 +"  "+sat4+"^2"
+    }
+
+    function luaspersegipanjang(){
+            var data2=document.getElementById("panjang").value
+            var data3=document.getElementById("lebar").value
+            var hasil2=data2*data3
+            var sat=document.getElementById("satuanlebar").value
+
+            document.getElementById("hasil2").innerHTML="Hasil perhitungan luas= "+ hasil2 +"  " +sat+"^2"
+    }
+    function hitungluassegitiga(){
+        var data4=document.getElementById("alas").value
+        var data5=document.getElementById("tinggi").value
+        var hasil3=1/2*data4*data5
+        var sat3=document.getElementById("satuanlebar3").value
+
+
+        document.getElementById("hasil3").innerHTML="Hasil perhitungan luas= " + hasil3+"  "+sat3+"^2"
+
+                }
+    function umur(){
+      var data7=document.getElementById("umur1").value
+      if(data7 <= 5){
+      alert("umur anda balita")}
+      else if(data7 > 5 && data7 <= 11){
+      alert("umur anda anak-anak")}
+      else if(data7 > 11 && data7 <= 16){
+      alert("umur anda remaja")}
+      else if(data7 > 16 && data7 <= 25){
+      alert("umur anda dewasa awal")}
+      else if(data7 > 25 && data7 <= 45){
+      alert("umur anda dewasa akhir")}
+      else if(data7 > 45 && data7 <= 55){
+      alert("umur anda lansia awal")}
+      else if(data7 > 55 && data7 <= 70){
+      alert("umur anda lansia akhir")}
+      }
+
+
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="./script.js" async></script>
+
+<body>
+    <table style="background-image: url('itadori1.webp') ; background-size: 1180px 1300px;">
+    <tr>
+            <th colspan="6" width="1500px" height="20px" style="font-style: oblique bold; font-size: large; background-color: orange;">PRODUCT</th>
+    </tr>
+    <tr>
+        <td align="center" width="200px" style="background-image: url('')"><a href="HOME.htm" class="button-71">Home</a></td>
+        <td align="center" width="200px" style="background-image: url('')"><a href="PROFILE.htm" class="button-71">Profile</a></td>
+        <td align="center" width="200px" style="background-image: url('')"><a href="ALBUM.htm" class="button-71">Album</a></td>
+        <td align="center" width="200px" style="background-image: url('')"><a href="STORY.htm" class="button-71">Story</a></td>
+        <td align="center" width="200px" style="background-image: url('')"><a href="COMMENT.htm" class="button-71">Comment</a></td>
+        <td align="center" width="200px" style="background-image: url('')"><a href="PRODUCT.htm" class="button-71">Product</a></td>
+    </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td colspan="2" align="center" style="background-image: url('border1.png') ; background-size: 385px 80px; background-color: rgb(255, 255, 255); font-style: oblique;"> 
+                            <h1>My Project</h1>
+                    </td>
+                    <td colspan="2"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="3" align="center">
+                    <table border="4" style="background-image: url(''); background-size: 413px 350px ; background-color: #fff;">
+                    <tr>
+                        <td>
+                        <table>
+                            <tr>
+                                     <th colspan="2" align>
+                                     <h1>Luas Persegi Panjang</h1>
+                                     </th>
+                            </tr>
+                            <tr>
+                                     <th align="center" colspan="2">
+                                     <img src="Persegipanjang.png" width="200px" height="100px">
+                                     </th>
+                            </tr>
+
+                            <tr>
+
+                                        <td width="100px">
+                                        Panjang
+                                        </td>
+                                        <td width="300px">
+                                        <input id="panjang">
+                                        </td>
+                            </tr>
+
+                            <tr>
+                                    <td width="100px">
+                                        Lebar
+                                    </td>
+                                    <td width="300px">
+                                     <input id="lebar">
+                                    </td>
+                            </tr>
+                            <tr>
+                                    <td width="100px">
+                                        Satuan
+                                    </td>
+                                    <td>
+                                     <select id="satuanlebar">
+                                        <option value="cm">cm</option>
+                                        <option value="m">m</option>
+                                     </select>
+                                    </td>
+                            </tr>
+
+                            <tr>
+                                 <td colspan="2" align="center">
+                                        <button onclick="luaspersegipanjang()">hitung</button>
+                                 </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                        <p id="hasil2">Hasil perhitungan luas=</p>
+                                 </td>
+                            </tr>
+                        </table>
+                        </td>
+
+                    </tr>
+                    </table>
+                    </td>
+                        <td colspan="3" align="center">
+                        <table border="4" style="background-image: url(''); background-size: 413px 350px ; background-color: #fff;">
+                            <tr>
+                                <td>
+                                <table>
+                                    <tr>
+                                        <th colspan="2">
+                                            <h1>Luas Segitiga</h1>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th align="center" colspan="2">
+                                            <img src="segitiga.png" width="200px" height="100px">
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td width="100px">
+                                                    Alas
+                                        </td>
+                                        <td width="300px">
+                                            <input id="alas">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="100px">
+                                                   Tinggi
+                                        </td>
+                                        <td width="300px">
+                                        <input id="tinggi">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="100px">
+                                                  satuan
+                                        </td>
+                                        <td>
+                                                    <select id="satuanlebar3">
+                                                        <option id="cm".value>cm</option>
+                                                        <option id="m">m</option>
+                                                    </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" align="center">
+                                                    <button onclick="hitungluassegitiga()">hitung</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                                    <p id="hasil3">Hasil perhitungan luas=</p>
+                                        </td>
+                                    </tr>
+
+                                </table>
+                                </td>
+                            </tr>
+                        </table>
+                        </td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center">
+                    <table border="4" style="background-image: url(''); background-size: 413px 350px ; background-color: #fff;">
+                    <tr>
+                        <td>
+                        <table>
+                            <tr>
+                                     <th colspan="2">
+                                     <h1>Luas Lingkaran</h1>
+                                     </th>
+                            </tr>
+                            <tr>
+                                     <th align="center" colspan="2">
+                                     <img src="lingkaran.png" width="200px" height="100px">
+                                     </th>
+                            </tr>
+
+                            <tr>
+
+                                        <td width="100px">
+                                        Jari
+                                        </td>
+                                        <td width="300px">
+                                        <input id="jari">
+                                        </td>
+                            </tr>
+
+                            
+                            <tr>
+                                    <td width="100px">
+                                        Satuan
+                                    </td>
+                                    <td>
+                                     <select id="satuanlebar2">
+                                        <option value="cm">cm</option>
+                                        <option value="m">m</option>
+                                     </select>
+                                    </td>
+                            </tr>
+
+                            <tr>
+                                 <td colspan="2" align="center">
+                                        <button onclick="hitungluaslingkaran()">hitung</button>
+                                 </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                        <p id="hasil1">Hasil perhitungan luas=</p>
+                                 </td>
+                            </tr>
+                        </table>
+                        </td>
+
+                    </tr>
+                    </table>
+                    </td>
+                        <td colspan="3" align="center">
+                        <table border="4" style="background-image: url(''); background-size: 413px 350px ; background-color: #fff;">
+                            <tr>
+                                <td>
+                                <table>
+                                    <tr>
+                                        <th colspan="2">
+                                            <h1>Luas Persegi</h1>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th align="center" colspan="2">
+                                            <img src="persegi.png" width="200px" height="100px">
+                                        </th>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td width="100px">
+                                                   Sisi
+                                        </td>
+                                        <td width="300px">
+                                        <input id="sisi">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="100px">
+                                                  satuan
+                                        </td>
+                                        <td>
+                                                    <select id="satuanlebar4">
+                                                        <option id="cm".value>cm</option>
+                                                        <option id="m">m</option>
+                                                    </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" align="center">
+                                                    <button onclick="luaspersegi()">hitung</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                                    <p id="hasil4">Hasil perhitungan luas=</p>
+                                        </td>
+                                    </tr>
+
+                                </table>
+                                </td>
+                            </tr>
+                        </table>
+                        </td>
+                </tr>
+            
+
+                <tr>
+                    <td colspan="3" align="center">
+                    <table border="4" style="background-image: url(''); background-size: 413px 350px ; background-color: #fff;">
+                    <tr>
+                        <td>
+                        <table>
+                            <tr>
+                                     <th colspan="2">
+                                     <h1>Kategori Umur Anda</h1>
+                                     </th>
+                            </tr>
+                            <tr>
+                                     <th align="center" colspan="2">
+                                     <img src="umur.png" width="400pxpx" height="200px">
+                                     </th>
+                            </tr>
+
+                            <tr>
+
+                                        <td width="100px" height="20px">
+                                        Umur anda
+                                        </td>
+                                        <td width="300px" height="50px">
+                                        <input id="umur1">
+                                        </td>
+                            </tr>
+
+                            <tr>
+                                    <td width="100px">
+
+                                    </td>
+                                    <td width="300px">
+
+                                    </td>
+                            </tr>
+                            <tr>
+                                    <td width="100px">
+
+                                    </td>
+                                    <td>
+
+                                    </td>
+                            </tr>
+
+                            <tr>
+                                 <td colspan="2" align="center" height="50px">
+                                        <button onclick="umur()">kategori anda</button>
+                                 </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+
+                                 </td>
+                            </tr>
+                        </table>
+                        </td>
+
+                    </tr>
+                    </table>
+                    </td>
+                    <td colspan="3" align="center">
+                        <table border="4" width="300px" style="background-image: url(''); background-size: 413px 350px ; background-color: #fff;">
+                            <tr>
+                                <td>
+                                <table>
+                                    <tr>
+                                        <th colspan="2" width="300px">
+                                            <h1>Jam</h1>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th align="center" colspan="2">
+                                            <img src="jam.jpg" width="405px" height="190px">
+                                        </th>
+                                    </tr>
+
+                                    <tr>
+                                        <td width="100px">
+                                            <pre style-font="timesnewroman" align="center">Sekarang Jam</pre>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="100px" height='80px'>
+                                            <div id="DisplayClock" class="clock" onload="showTime()" align="center"></div>
+                                        </td>
+                                    </tr>
+                                   
+                                </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                
+
+        </table>
+</body>
+
+</html>
