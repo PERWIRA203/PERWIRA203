@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **perwira2007@gmail.com**
 
-- ⚡ Fun fact **I like code and do bug bounty everyday**
+- ⚡ Fun fact **I like to code and Read Novel**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
